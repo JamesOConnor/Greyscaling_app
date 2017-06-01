@@ -1,0 +1,18 @@
+{% load static %}
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'theme.css' %}">
+</head>
+<h2>
+    Django greyscaler application - see github.
+</h2>
+<div id="form">
+{% block content %}
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p>
+        <p id="subject" class="contact">{{ form.image }}</p>
+    </ul>
+    <input type="submit" value="Upload Image"></input>
+  </form>
+{% endblock %}
+    </div>

@@ -1,0 +1,57 @@
+
+
+{% load static %}
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'theme.css' %}">
+</head>
+
+<h2>Result set for image</h2>
+
+<table border="1" cellpadding="5">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="{% static 'orig.jpg' %}" alt="Another image">
+<br />
+Original
+</td>
+
+    <td align="center" valign="center">
+<img src="{% static 'pca.jpg' %}" alt="Another image">
+<br />
+First PC
+</td>
+
+
+<td align="center" valign="center">
+<img src="{% static 'pca2.jpg' %}" alt="Another image">
+<br />
+Second PC
+
+</td>
+</tr>
+<tr>
+      <td align="center" valign="center">
+<img src="{% static 'grey.jpg' %}" alt="Another image">
+<br />
+Green channel
+</td>
+<td align="center" valign="center">
+<img src="{% static 'avg_pca_cust.jpg' %}" alt="Another image">
+<br />
+PCA LAB
+</td>
+
+
+<td align="center" valign="center">
+<img src="{% static 'avg_pca_Y.jpg' %}" alt="Another image">
+<br />
+PCA YCbCr
+
+    </tr>
+</td>
+
+</tr>
+
+</table>
