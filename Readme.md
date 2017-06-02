@@ -1,1 +1,1 @@
-.
+Django web application for making greyscale versions of RGB images using algorithms detailed within [Verhoeven, 2015](http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5-W4/307/2015/isprsarchives-XL-5-W4-307-2015.pdf), amongst other methods.
